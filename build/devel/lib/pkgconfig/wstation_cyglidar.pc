@@ -1,0 +1,8 @@
+prefix=/home/seunghwan/catkin_ws/src/wstation_cyglidar/build/devel
+
+Name: wstation_cyglidar
+Description: Description of wstation_cyglidar
+Version: 0.0.0
+Cflags: -I/home/seunghwan/catkin_ws/src/wstation_cyglidar/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp dynamic_reconfigure std_msgs sensor_msgs visualization_msgs pcl_ros

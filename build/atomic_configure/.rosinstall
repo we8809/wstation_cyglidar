@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/seunghwan/catkin_ws/src/wstation_cyglidar/build/devel/setup.sh

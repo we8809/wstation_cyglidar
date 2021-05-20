@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: wstation_cyglidar
+Description: Description of wstation_cyglidar
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp dynamic_reconfigure std_msgs sensor_msgs visualization_msgs pcl_ros

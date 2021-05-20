@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+
+  <param name="pass_through_x_axis_min" type="double" value="-240.0" />
+  <param name="pass_through_x_axis_max" type="double" value="240.0" />
+
+  <param name="pass_through_y_axis_min" type="double" value="-350.0" />
+  <param name="pass_through_y_axis_max" type="double" value="350.0" />
+  
+  <param name="pass_through_z_axis_min" type="double" value="0.0" />
+  <param name="pass_through_z_axis_max" type="double" value="600.0" />
+
+  <param name="voxel_leaf_size" type="double" value="10.0" />
+  <param name="ransac_distance_threshold" type="double" value="17.5" />
+
+  <param name="sor_mean_k" type="int" value="500" />
+  <param name="sor_multi_threshold" type="double" value="1.0" />
+
+  <node pkg="wstation_cyglidar" type="main" name="main" respawn="true" output="screen">
+  </node>
+
+</launch>
